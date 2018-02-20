@@ -1,6 +1,6 @@
 /*
   CityVerve - Ordinance Survey Maps Demo
-  http://developer.cityverve.org.uk
+  https://developer.cityverve.org.uk
   https://github.com/cityverve/ordnance-survey-maps-demo
 
   Released under the MIT license
@@ -11,7 +11,7 @@
 // --- constants
 
 const MANCHESTER   = { center: { lat: 53.4791595, lng: -2.2462938 }, zoom: 12 };  // Town Hall is map center point and zoom
-const API_ENDPOINT = 'http://api.cityverve.org.uk/v1/entity/';  // keep trailing slash
+const API_ENDPOINT = 'https://api.cityverve.org.uk/v1/entity/';  // keep trailing slash
 const API_KEY      = 'YOUR-KEY-HERE';  // cityverve api key
 
 // --- a generic method for make an asyncronous call to an http endpoint
