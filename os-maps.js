@@ -73,28 +73,24 @@ function initialise ()
     var selected = null;
     var entity   = null;
     var infobox  = null;
-    var size     = null;
 
     if (window.location.search == '?rail-station')
     {
         selected = document.getElementById ('rail-station');
         entity   = 'rail-station';
         infobox  =  infoRailStation;
-        size     = { w: 225, h: 200};
     }
     else if (window.location.search == '?history')
     {
         selected = document.getElementById ('history');
         entity   = 'history';
         infobox  =  infoHistory;
-        size     = { w: 500, h: 450};
     }
     else  // default to blue-plaque
     {
         selected = document.getElementById ('blue-plaque');
         entity   = 'blue-plaque';
         infobox  =  infoBluePlaque;
-        size     = { w: 450, h: 300};
     }
 
     selected.className += ' selected';  // changes appearance of selected
